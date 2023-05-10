@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header {
+    height: 110vh;
+    background-image: url(../images/banner1.jpg);
+    background-color: rgba(31, 30, 30, 0.8);
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+
+    .nav {
+        border-bottom: 1px solid white;
+        border-top: 1px solid white;
+        font-size: 24px;
+    }
+    li {
+        color: white;
+    }
+    li:hover{
+        background-color: #B02939;
+    }
+    .logo{
+        .taste{
+        width: 60px;
+        }
+    }
+    .text-1 {
+        .text-light {
+            font-family: "courgette";
+
+            .larg {
+                font-size: 62px;
+            }
+
+            .taste {
+                font-size: 60px;
+                color: #B02939;
+            }
+
+            .larg-2 {
+                font-size: 60px;
+            }
+        }
+    }
+        
+    
+    .deco-foot{
+        
+        rotate: y -180deg;
+    }
+}
+
+@media (max-width:769px) {
+    li {
+        font-size: 10px;
+        color: black;
+}
+}
+@media (min-width:375px) and (max-width:426px){
+    .header{
+        height: 150vh;
+        .nav{
+            display: none ;
+        }
+    }
+    .text-1{
+        .larg{
+            font-size: 10px;
+        }
+    }
+    .dropdown{
+        margin-right: 300px;
+        padding-top: 30px;
+    }
+    
+}

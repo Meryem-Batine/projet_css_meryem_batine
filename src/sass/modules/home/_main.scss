@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+//* section-1------------------------------
+.section-1{
+    height: 200vh;
+    background-image: url(../images/main_bg.jpg);
+    .card{
+        height: 85vh;
+        width: 90%;
+        background-color: white;
+    }
+    .text-2{
+        h1{
+            font-family: "courgette";
+            .our{
+                font-size: 60px;
+                color: #B02939;
+            }
+        }
+        
+    }
+}
+//!media-section-1-------------------------------
+@media (max-width:768px) {
+    .section-1{
+        height: 180vh;
+        .card{
+            height: 127vh;
+        }
+    }
+}
+@media (min-width:375px) and (max-width:426px){
+    .section-1{
+        height: 220vh;
+        .card{
+            height: 186vh;
+        }
+    }
+}
+// *section-2--------------------------------------
+.section-2{
+    height: 100vh;
+    background-image: url(../images/team_background.jpg);
+    .title-3{
+        font-family: "courgette";
+        .meet{
+            font-size: 60px;
+            color: #B02939;
+        }
+        .img-deco{
+            border-bottom: none;
+        }
+    }
+    
+}
+//!media-section-2-------------------------------
+@media (max-width:768px) {
+    .line{
+        width: 350px;
+    }
+    .section-2{
+        height: 180vh;
+        .chef{
+            text-align: center;
+        }
+    }
+}
+@media (min-width:375px) and (max-width:426px){
+    .section-2{
+        height: 280vh;
+    }
+}
+
+// *section-3 -----------------------------------
+.section-3{
+    height: 220vh;
+    background-image: url(../images/main_bg.jpg);
+    .card-2{
+        height: 196vh;
+        width: 90%;
+        background-color: white;
+    }
+    .text-3{
+        h1{
+            font-family: "courgette";
+            .book{
+                font-size: 60px;
+                color: #B02939;
+            }
+        }
+        .our-2{
+            font-size: 60px;
+            color: #B02939;
+        }
+    }
+    .table{
+        width: 700px;
+        height: 70vh;
+        background-image: url(../images/book_table_bg.jpg);
+        border-radius: 2%;
+            .number{
+                font-size: 30px;
+            }
+            .input-1 :hover{
+                border:2px solid black;
+            }
+    }
+    .post-img{
+        width: 350px;
+        border:4px solid rgb(209, 205, 205) ;
+    }
+    .post-1{
+        position: relative;
+        .titre-float{
+            position: absolute;
+            top: 185px;
+            left: 88px;
+            .lrg-num{
+                font-size: 24px;
+            }
+        }
+        .post-text{
+            width: 330px;
+        }
+    }
+}
+//!media-section-3---------------------------
+@media (max-width:768px){
+    .section-3{
+        width:100% ;
+        height: 340vh;
+        .card-2{
+            height: 305vh;
+        }
+        .table{
+            width:80%;
+            height: 110vh;
+            .number{
+                font-size: 24px;
+            }
+            .inputs{
+                display: block;
+            }
+        }
+        .btn-3{
+            padding-top: 2rem;
+        }
+        .post-1{
+            width: 70%;
+            position: relative;
+            .titre-float{
+                position: absolute;
+                left: 50px;
+                
+            }
+        }
+    }
+}
+@media (min-width:375px) and (max-width:426px) {
+    .section-3{
+        height: 360vh;
+        .card-2{
+            height: 315vh;
+        }
+        .table{
+            width: 300px;
+            height: 124vh;
+        }
+        .post-1{
+        }
+    }
+}
+//* section-4 -----------------------------------------------------
+.section-4{
+    width: 100%;
+    height: 80vh;
+    background-image: url(../images/testimonials_background.jpg);
+    background-color: rgba(18, 18, 18, 0.8);
+    background-blend-mode: darken;
+    h1{
+        font-family: "courgette";
+        .client{
+            font-size: 40px;
+        }
+        .test{
+            font-size: 30px;
+        }
+    }
+    .radius-img{
+        border:4px solid rgb(209, 205, 205) ;
+    }
+}
+//!media-section-4---------------------------
+@media (max-width:768px) {
+    .section-4{
+        height: 100vh;
+    }
+    
+}
+@media (min-width:375px) and (max-width:426px){
+    .section-4{
+        height: 160vh;
+    }
+}
+//* section-5 ---------------------------------------
+.section-5{
+    height: 100vh;
+    background-image: url(../images/main_bg.jpg);
+    h1{
+        font-family: "courgette";
+        .cnt{
+            font-size: 64px;
+        }
+        .ctc{
+            font-size: 60px;
+        }
+    }
+    .crd{
+        width: 30vw;
+    }
+    .brdr{
+        border-bottom: 1px solid white;
+    }
+}
+//!media-section-5---------------------------
+@media (max-width:768px) {
+    .section-5{
+        height: 120vh;
+        .crd{
+            width: 40vw;
+            height: 70vh;
+        }
+    }
+}
+@media (min-width:375px) and (max-width:426px){
+    .section-5{
+        height: 130vh;
+        .text-2{
+            span{
+                font-size: 50px;
+            }
+            
+        }
+        .crd{
+            width: 70vw;
+            height: 70vh;
+        }
+    }
+}
+
+//* section-6 ---------------------------------------
+.section-6{
+    height: 45vh;
+    background-image: url(../images/team_background.jpg);
+    .about{
+        width: 500px;
+        .icons{
+            width: 200px;
+        }
+    }
+}
+//!media-section-3---------------------------
+@media (max-width:768px){
+.section-6{
+    height: 125vh;
+    .about{
+        width: 600px;
+        .icons{
+            width: 250px;
+        }
+    }
+    .popular-tags{
+        width: 600px;
+    }
+}
+}
+@media (min-width:375px) and (max-width:426px){
+.section-6{
+    height: 150vh;
+    .about{
+    width: 350px;
+    }
+
+}
+}
